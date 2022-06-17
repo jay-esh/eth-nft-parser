@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.NftContainer {
+  /* grid-template-columns: 60px 60px; */
+  column-count: 4;
+  column-gap: 40px;
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* margin-bottom: 2000px; */
+  padding: 70px;
+  /* display: inline-block; */
+  /* column-fill: balance; */
+  /* display: flex; */
+  /* transform: rotate(-0.09deg); */
+}
+
+.myhead{
+  
+  background: #5E00BC;
+  margin-top: -15px;
+  margin-bottom: -16px;
+  /* width: 150px; */
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+.heading{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 32px;
+  /* or 145% */
+
+  letter-spacing: -0.02em;
+  color: whitesmoke;
+  text-shadow: #490091;
+  /* text-shadow: 20px; */
+  text-shadow: 2px 2px 4px rgb(63, 0, 122);
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.connectwall{
+  /* position: absolute; */
+  /* width: 1440px; */
+  /* align-self: flex-start; */
+  height: 268px;
+  left: 0px;
+  top: 101px;
+  border-spacing: 0cm;
+  background: rgb(131 44 255 / 67%);
+}
+
+.individualNfts{
+  background: rgba(178, 106, 250, 0.1);
+  /* margin-top: 20px; */
+  /* padding: 30px; */
+  box-shadow: 10px 6px 4px rgba(255, 0, 214, 0.13);
+  border-radius: 30px;
+  width: 250px;
+  margin-top: 20px;
+  
+  /* margin-bottom: 50px; */
+  /* height: 250px;
+  width: 250px; */
+  font-family: 'Courier New', Courier, monospace;
+  transition: transform 250ms;
+
+}
+
+.individualNfts:hover{
+  transform: translateY(-10px);
+
+}
+
+.nftname{
+  padding: 10px;
+}
+
+.descriptionnft{
+  padding: 10px;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+  /* object-fit: cover; */
+}
+
+.connectwalletbtn{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 2px transparent;
+  border-radius: 0.4em;
+
+  /* size comes from text & padding (no width/height) */
+  /* padding: 0.5em 1em; */
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: #ae00a8;
+  text-decoration: #ffffff;
+}
+
+.connectwalletbtn:active{
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+/* .connectwalletbtn:hover{
+  color: #77448c;
+  border-color: currentColor;
+  background-color: white;
+} */
+
+.showNfts{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 2px transparent;
+  border-radius: 0.4em;
+
+  /* size comes from text & padding (no width/height) */
+  /* padding: 0.5em 1em; */
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: #ae00a8;
+  text-decoration: #ffffff;
+}
+
+.showNfts:active{
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
